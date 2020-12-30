@@ -10,7 +10,7 @@ Imports DevExpress.XtraReports.Design.Behaviours
 
 Namespace CustomControls
 
-	<ToolboxItem(True), XRDesigner("CustomControls.MyPanelDesigner"), Designer("CustomControls.MyPanelDesigner"), >
+	<ToolboxItem(True), XRDesigner("CustomControls.MyPanelDesigner"), Designer("CustomControls.MyPanelDesigner")>
 	Public Class MyCompositeControl
 		Inherits XRPanel
 

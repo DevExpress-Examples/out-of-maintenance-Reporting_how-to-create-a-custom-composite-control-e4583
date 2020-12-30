@@ -7,14 +7,20 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{20A336E9-ECA3-421D-9C15-81F2478001E9}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>CustomControls</AssemblyName>
-    <SccProjectName></SccProjectName>
-    <SccLocalPath></SccLocalPath>
-    <SccAuxPath></SccAuxPath>
-    <SccProvider></SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <FileUpgradeFlags></FileUpgradeFlags>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
     <OldToolsVersion>2.0</OldToolsVersion>
     <UpgradeBackupLocation />
     <PublishUrl>publish\</PublishUrl>
@@ -45,7 +51,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <ErrorReport>prompt</ErrorReport>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <RemoveIntegerChecks>true</RemoveIntegerChecks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -74,92 +80,92 @@
     <Reference Include="DevExpress.Printing.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.Printing.v13.1.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Printing.v13.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.Data.v13.1.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Data.v13.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.Utils.v13.1.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Utils.v13.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Charts.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.Charts.v13.1.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Charts.v13.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v13.1.Wizard">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.XtraCharts.v13.1.Wizard.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraCharts.v13.1.Wizard.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.XtraCharts.v13.1.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraCharts.v13.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraNavBar.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.XtraNavBar.v13.1.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraNavBar.v13.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraPrinting.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.XtraPrinting.v13.1.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraPrinting.v13.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.PivotGrid.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.PivotGrid.v13.1.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.PivotGrid.v13.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraPivotGrid.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.XtraPivotGrid.v13.1.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraPivotGrid.v13.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v13.1.Extensions">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.XtraReports.v13.1.Extensions.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraReports.v13.1.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v13.1.UI">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.Utils.v13.1.UI.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Utils.v13.1.UI.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Sparkline.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.Sparkline.v13.1.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Sparkline.v13.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.XtraReports.v13.1.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraReports.v13.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Office.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.Office.v13.1.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Office.v13.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Docs.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.Docs.v13.1.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.Docs.v13.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v13.1.Core">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.RichEdit.v13.1.Core.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.RichEdit.v13.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraRichEdit.v13.1">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\13.1.14\DevExpress.XtraRichEdit.v13.1.dll</HintPath>
+      <HintPath>bin\Debug\DevExpress.XtraRichEdit.v13.1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -203,6 +209,9 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
@@ -212,6 +221,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent></PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
