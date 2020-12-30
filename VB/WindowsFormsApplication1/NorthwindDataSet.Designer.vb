@@ -788,7 +788,7 @@ SELECT CategoryID, CategoryName, Description FROM Categories WHERE (CategoryID =
 		<System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>
 		Private Sub InitConnection()
 			Me._connection = New System.Data.SqlClient.SqlConnection()
-			Me._connection.ConnectionString = My.Settings.Default.NorthwindConnectionString
+			Me._connection.ConnectionString = Global.WindowsFormsApplication1.Properties.Settings.Default.NorthwindConnectionString
 		End Sub
 
 		<System.Diagnostics.DebuggerNonUserCodeAttribute()>
