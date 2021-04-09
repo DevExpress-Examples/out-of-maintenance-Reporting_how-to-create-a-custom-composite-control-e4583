@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\SQLite.3.13.0\build\net45\SQLite.props" Condition="Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" />
   <PropertyGroup>
@@ -60,105 +60,84 @@
     <Reference Include="DevExpress.Charts.v19.2.Core, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Charts.v19.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Data.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.DataAccess.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.DataAccess.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Office.v19.2.Core, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Office.v19.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.PivotGrid.v19.2.Core, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.PivotGrid.v19.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Pdf.v19.2.Core, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Pdf.v19.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v19.2.Export, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.RichEdit.v19.2.Export.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Printing.v19.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Docs.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Docs.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v19.2.Core, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.RichEdit.v19.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Utils.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v19.2.UI, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Utils.v19.2.UI.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpo.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Xpo.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v19.2.Wizard, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.XtraCharts.v19.2.Wizard.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraCharts.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.XtraCharts.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.XtraEditors.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.XtraPrinting.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.Sparkline.v19.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.CodeParser.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.CodeParser.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v19.2, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.XtraReports.v19.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v19.2.Extensions, Version=19.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
-      <HintPath>C:\DXDlls\19.2.11\DevExpress.XtraReports.v19.2.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Data.Sqlite, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Data.Sqlite.1.1.1\lib\net451\Microsoft.Data.Sqlite.dll</HintPath>
