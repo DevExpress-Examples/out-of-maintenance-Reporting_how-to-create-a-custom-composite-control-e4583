@@ -11,7 +11,7 @@ Imports System.ComponentModel.Design
 
 Namespace CustomControls
 
-	<ToolboxItem(True), XRDesigner("CustomControls.MyPanelDesigner"), Designer("CustomControls.MyPanelDesigner"), >
+	<ToolboxItem(True), XRDesigner("CustomControls.MyPanelDesigner"), Designer("CustomControls.MyPanelDesigner")>
 	Public Class MyCompositeControl
 		Inherits XRPanel
 
