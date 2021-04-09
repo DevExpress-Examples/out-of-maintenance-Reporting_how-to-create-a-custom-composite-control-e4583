@@ -23,35 +23,53 @@
 		''' the contents of this method with the code editor.
 		''' </summary>
 		Private Sub InitializeComponent()
-			Me.button1 = New System.Windows.Forms.Button()
+			Me.tableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+			Me.btShowDesigner = New System.Windows.Forms.Button()
+			Me.tableLayoutPanel1.SuspendLayout()
 			Me.SuspendLayout()
 			' 
-			' button1
+			' tableLayoutPanel1
 			' 
-			Me.button1.Location = New System.Drawing.Point(96, 102)
-			Me.button1.Name = "button1"
-			Me.button1.Size = New System.Drawing.Size(75, 23)
-			Me.button1.TabIndex = 0
-			Me.button1.Text = "button1"
-			Me.button1.UseVisualStyleBackColor = True
+			Me.tableLayoutPanel1.ColumnCount = 1
+			Me.tableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F))
+			Me.tableLayoutPanel1.Controls.Add(Me.btShowDesigner, 0, 0)
+			Me.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+			Me.tableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+			Me.tableLayoutPanel1.Name = "tableLayoutPanel1"
+			Me.tableLayoutPanel1.RowCount = 1
+			Me.tableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F))
+			Me.tableLayoutPanel1.Size = New System.Drawing.Size(233, 86)
+			Me.tableLayoutPanel1.TabIndex = 0
+			' 
+			' btShowDesigner
+			' 
+			Me.btShowDesigner.Anchor = System.Windows.Forms.AnchorStyles.None
+			Me.btShowDesigner.Location = New System.Drawing.Point(40, 31)
+			Me.btShowDesigner.Name = "btShowDesigner"
+			Me.btShowDesigner.Size = New System.Drawing.Size(152, 23)
+			Me.btShowDesigner.TabIndex = 1
+			Me.btShowDesigner.Text = "Show Designer"
+			Me.btShowDesigner.UseVisualStyleBackColor = True
 'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.button1.Click += new System.EventHandler(this.button1_Click);
+'ORIGINAL LINE: this.btShowDesigner.Click += new System.EventHandler(this.btShowDesigner_Click);
 			' 
 			' Form1
 			' 
 			Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
 			Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-			Me.ClientSize = New System.Drawing.Size(284, 262)
-			Me.Controls.Add(Me.button1)
+			Me.ClientSize = New System.Drawing.Size(233, 86)
+			Me.Controls.Add(Me.tableLayoutPanel1)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
+			Me.tableLayoutPanel1.ResumeLayout(False)
 			Me.ResumeLayout(False)
 
 		End Sub
 
 		#End Region
 
-		Private WithEvents button1 As System.Windows.Forms.Button
+		Private tableLayoutPanel1 As System.Windows.Forms.TableLayoutPanel
+		Private WithEvents btShowDesigner As System.Windows.Forms.Button
 	End Class
 End Namespace
 

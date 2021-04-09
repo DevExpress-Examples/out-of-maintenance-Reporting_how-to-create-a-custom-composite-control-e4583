@@ -7,6 +7,7 @@ Imports System.ComponentModel
 Imports DevExpress.XtraReports
 Imports DevExpress.XtraReports.Design
 Imports DevExpress.XtraReports.Design.Behaviours
+Imports System.ComponentModel.Design
 
 Namespace CustomControls
 
@@ -16,7 +17,7 @@ Namespace CustomControls
 
 		Public Sub New()
 			MyBase.New()
-				Me.SizeF = New System.Drawing.SizeF(50, 50)
+				Me.SizeF = New System.Drawing.SizeF(200, 50)
 
 		End Sub
 	End Class
@@ -32,24 +33,24 @@ Namespace CustomControls
 			Dim panel As MyCompositeControl = TryCast(Me.XRControl, MyCompositeControl)
 
 			Dim label1 As New XRLabel()
-			label1.DataBindings.Add("Text", Nothing, "CategoryID")
-			label1.SizeF = New System.Drawing.SizeF(50, 25)
+			label1.ExpressionBindings.Add(New ExpressionBinding("Text","[ProductID]"))
+			label1.SizeF = New System.Drawing.SizeF(200, 25)
 			panel.Controls.Add(label1)
 			Dim label2 As New XRLabel()
 			panel.Controls.Add(label2)
-			label2.SizeF = New System.Drawing.SizeF(50, 25)
+			label2.SizeF = New System.Drawing.SizeF(200, 25)
 			label2.LocationF = New System.Drawing.PointF(0, 25)
-			label2.DataBindings.Add("Text", Nothing, "CategoryName")
+			label2.ExpressionBindings.Add(New ExpressionBinding("Text", "[ProductName]"))
 		End Sub
 		Public Sub AddChildControlsToContainer()
 			Dim panel As MyCompositeControl = TryCast(Me.XRControl, MyCompositeControl)
 			For Each childControl As XRControl In panel.Controls
 				Dim loc As System.Drawing.PointF = childControl.LocationF
-				DesignToolHelper.AddToContainer(fDesignerHost, childControl)
+				Dim designerHost As IDesignerHost = DirectCast(GetService(GetType(IDesignerHost)), IDesignerHost)
+				DesignToolHelper.AddToContainer(designerHost, childControl)
 				childControl.LocationF = loc
 			Next childControl
 		End Sub
-		'          override 
 	End Class
 
 	Public Class MyPanelDesignerBehaviour

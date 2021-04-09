@@ -16,20 +16,21 @@ Namespace WindowsFormsApplication1
 			InitializeComponent()
 		End Sub
 
-		Private Sub button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles button1.Click
-			If Not Me.button1.IsHandleCreated Then Return
+		Private Sub btShowDesigner_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btShowDesigner.Click
+			If Not Me.btShowDesigner.IsHandleCreated Then Return
 
 			Dim report As New XtraReport1()
 			Dim tool As New ReportDesignTool(report)
 			AddHandler tool.DesignForm.DesignMdiController.DesignPanelLoaded, AddressOf DesignMdiController_DesignPanelLoaded
 			tool.ShowDesignerDialog()
-
 		End Sub
 
 		Private Sub DesignMdiController_DesignPanelLoaded(ByVal sender As Object, ByVal e As DevExpress.XtraReports.UserDesigner.DesignerLoadedEventArgs)
 			Dim ts As IToolboxService = DirectCast(e.DesignerHost.GetService(GetType(IToolboxService)), IToolboxService)
-		   ts.AddToolboxItem(New ToolboxItem(GetType(CustomControls.MyCompositeControl)), "New Category")
+			ts.AddToolboxItem(New ToolboxItem(GetType(CustomControls.MyCompositeControl)), "New Category")
 
 		End Sub
+
+
 	End Class
 End Namespace
